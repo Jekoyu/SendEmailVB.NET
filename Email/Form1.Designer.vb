@@ -22,52 +22,52 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Tbemail = New System.Windows.Forms.TextBox()
+        Me.TbSubject = New System.Windows.Forms.TextBox()
+        Me.TbPesan = New System.Windows.Forms.TextBox()
+        Me.Btnklik = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'TextBox1
+        'Tbemail
         '
-        Me.TextBox1.Location = New System.Drawing.Point(181, 59)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(177, 20)
-        Me.TextBox1.TabIndex = 0
+        Me.Tbemail.Location = New System.Drawing.Point(181, 59)
+        Me.Tbemail.Name = "Tbemail"
+        Me.Tbemail.Size = New System.Drawing.Size(177, 20)
+        Me.Tbemail.TabIndex = 0
         '
-        'TextBox2
+        'TbSubject
         '
-        Me.TextBox2.Location = New System.Drawing.Point(181, 85)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(177, 20)
-        Me.TextBox2.TabIndex = 1
+        Me.TbSubject.Location = New System.Drawing.Point(181, 85)
+        Me.TbSubject.Name = "TbSubject"
+        Me.TbSubject.Size = New System.Drawing.Size(177, 20)
+        Me.TbSubject.TabIndex = 1
         '
-        'TextBox3
+        'TbPesan
         '
-        Me.TextBox3.Location = New System.Drawing.Point(181, 111)
-        Me.TextBox3.Multiline = True
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(232, 111)
-        Me.TextBox3.TabIndex = 2
+        Me.TbPesan.Location = New System.Drawing.Point(181, 111)
+        Me.TbPesan.Multiline = True
+        Me.TbPesan.Name = "TbPesan"
+        Me.TbPesan.Size = New System.Drawing.Size(232, 111)
+        Me.TbPesan.TabIndex = 2
         '
-        'Button1
+        'Btnklik
         '
-        Me.Button1.Location = New System.Drawing.Point(181, 229)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 3
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Btnklik.Location = New System.Drawing.Point(181, 229)
+        Me.Btnklik.Name = "Btnklik"
+        Me.Btnklik.Size = New System.Drawing.Size(75, 23)
+        Me.Btnklik.TabIndex = 3
+        Me.Btnklik.Text = "Button1"
+        Me.Btnklik.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Btnklik)
+        Me.Controls.Add(Me.TbPesan)
+        Me.Controls.Add(Me.TbSubject)
+        Me.Controls.Add(Me.Tbemail)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
@@ -75,8 +75,8 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents Tbemail As TextBox
+    Friend WithEvents TbSubject As TextBox
+    Friend WithEvents TbPesan As TextBox
+    Friend WithEvents Btnklik As Button
 End Class
